@@ -1,0 +1,101 @@
+* {
+    font-family: 'Nunito', Verdana, sans-serif;
+}
+
+body.login {
+    background-color: #34889c;
+    background: linear-gradient(to right, #34889c, #4678c8);
+}
+
+
+.bg-login {
+    background-image: url('../img/login.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main-page {
+    background-color: #f8f9fc;
+}
+.callout-primary {
+     border-left-width: 6px;
+     border-left-color: #428bca;
+}
+.callout-success {
+    border-left-width: 6px;
+    border-left-color: #1cc88a;
+}
+.callout-info {
+    border-left-width: 6px;
+    border-left-color: #36b9cc;;
+
+}
+
+.navbar-nav.navbar-center {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index: 1;
+    font-size:1.5em;
+   
+}
+
+.navbar-toggler{
+    
+    padding:0.5em;
+       
+}
+
+.navbar{
+   
+    margin-top:1em;
+   
+}
+
+
+.mat-ico{
+
+    padding-right:0.5em;
+
+}
+
+.card-body-mod{
+    
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+.mat-ico-b{
+
+    padding-left:0,5em;
+
+}
+
+.pad-ventas{
+
+    padding-left: 10em;
+    padding-right: 2em;
+}
+
+.pad-codigo{
+
+    padding-left: 8em;
+    padding-right: 2em;
+}
+
+.pad-precio{
+
+    padding-left: 6em;
+    padding-right: 2em;
+}
+
+.floating-card {
+    float: left;
+    width: 600px;
+
+}
+
